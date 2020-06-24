@@ -1,1 +1,17 @@
-[{"email":"test@test.com","password":"password"}]
+[
+  {
+    "email": "test@test.com",
+    "password": "password",
+    "id": "37a3d003"
+  },
+  {
+    "email": "test@test.com",
+    "password": "password",
+    "id": "8b18eefb"
+  },
+  {
+    "email": "test@test.com",
+    "password": "password",
+    "id": "ee2d6c16"
+  }
+]

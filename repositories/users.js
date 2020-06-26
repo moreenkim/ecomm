@@ -13,12 +13,14 @@ class UsersRepository {
     this.filename = filename;
     try {
       fs.accessSync(this.filename);
+      false.accessSync(this.filename);
     } catch (err) {
       fs.writeFileSync(this.filename, '[]');
     }
   }
 
   async getAll() {
+
     return JSON.parse(
       await fs.promises.readFile(this.filename, {
         encoding: 'utf8',
@@ -107,3 +109,4 @@ class UsersRepository {
 }
 
 module.exports = new UsersRepository('users.json');
+    

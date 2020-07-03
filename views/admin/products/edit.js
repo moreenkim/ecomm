@@ -34,6 +34,6 @@ module.exports = ({ product, errors }) => {
           </form>
         </div>
       </div>
-    `,
+    `
   });
 };
